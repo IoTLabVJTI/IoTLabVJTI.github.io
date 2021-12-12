@@ -6,7 +6,7 @@ layout: default
     <div class=row>
         <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/team">Team</a></li>
+            <li class="breadcrumb-item"><a href="/research_projects">Research Projects</a></li>
             <li class="breadcrumb-item text-capitalize"><a href="/team#{{ page.category }}">{{ page.category }}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
         </ol>
@@ -25,8 +25,8 @@ layout: default
         <!-- Social -->
         <ul class="list-inline list-unstyled">
             <!-- Twitter -->
-            {% if page.social.twitter %}
-                <li><a target="blank" href="{{page.social.twitter}}"><i class="fab fa-twitter"></i></a></li>
+            {% if page.social.youtube %}
+                <li><a target="blank" href="{{page.social.youtube}}"><i class="fab fa-twitter"></i></a></li>
             {% endif %}
             <!-- Linkedin -->
             {% if page.social.linkedin %}
