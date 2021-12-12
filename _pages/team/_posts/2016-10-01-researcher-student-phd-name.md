@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: PhD Student
-image: researcher.jpeg
+image: new.jpg
 role: PhD Student
 batch: 2019
 permalink: 'team/PhD-Student-name'
