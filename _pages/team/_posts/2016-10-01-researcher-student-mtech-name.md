@@ -1,11 +1,11 @@
 ---
 layout: member
 category: student
-title: Ruhi Dongre
+title: MTech Student Name
 image: researcher.jpeg
 role: MTech Student
 batch: 2018
-permalink: 'team/researcher-name'
+permalink: 'team/MTech-Student-name'
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/

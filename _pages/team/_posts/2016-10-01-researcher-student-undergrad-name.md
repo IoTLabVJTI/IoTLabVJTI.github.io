@@ -1,11 +1,11 @@
 ---
 layout: member
 category: student
-title: Ruhi Dongre
+title: Undergrad Student
 image: researcher.jpeg
 role: Undergrad Student
 batch: 2019
-permalink: 'team/researcher-name'
+permalink: 'team/Undergrad Student-name'
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
