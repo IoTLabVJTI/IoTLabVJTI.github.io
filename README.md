@@ -41,7 +41,7 @@ Each new member `.md` file must look like this:
 layout: member
 category: staff
 title: Researcher Name
-image: researcher.png
+image: researcher.jpeg
 role: Lab Director
 permalink: 'team/researcher-name'
 social:

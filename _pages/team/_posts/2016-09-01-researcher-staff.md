@@ -1,18 +1,16 @@
 ---
 layout: member
 category: staff
-title: Researcher Name
-image: researcher.png
-role: Lab Director
-permalink: 'team/researcher-name'
+title: Dr. R. D. Daruwala
+image: researcher.jpeg
+role: Lab Director, Dean of Student and Alumni Affairs
+permalink: 'team/staff-name'
 social:
-    twitter: https://twitter.com/
-    linkedin: https://www.linkedin.com/
-    google-scholar: https://scholar.google.fr/
-    github: https://github.com/
-    website:
-    orcid: https://orcid.org/
-    research-gate: https://www.researchgate.net/
+    linkedin: https://in.linkedin.com/in/rddaruwala
+    google-scholar: https://scholar.google.com/citations?user=ps4tWIAAAAAJ&hl=en
+    github: https://github.com/iotlabvjti
+    ieee: https://ieeexplore.ieee.org/author/37388761300
+    research-gate: https://www.researchgate.net/profile/Rohin-Daruwala
 education:
  - Education
 ---
