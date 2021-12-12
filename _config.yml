@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Research Lab
-email: your-email@domain.com
+title: IoT Lab, VJTI
+email: iotlabvjti@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A state of the art IoT (Internet of Things) lab and alongside a curriculum 
+  supported by industry on IoT at the prestigious Veermata Jijabai Technological 
+  Institute (VJTI), Mumbai.
 baseurl: ""
 url: ""
 
@@ -40,3 +40,4 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
