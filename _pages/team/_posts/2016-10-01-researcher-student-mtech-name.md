@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: MTech Student Name
-image: researcher.jpeg
+image: new.jpg
 role: MTech Student
 batch: 2018
 permalink: 'team/MTech-Student-name'

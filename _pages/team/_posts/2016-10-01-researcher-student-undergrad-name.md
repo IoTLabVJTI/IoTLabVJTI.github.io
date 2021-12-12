@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Undergrad Student
-image: researcher.jpeg
+image: new.jpg
 role: Undergrad Student
 batch: 2019
 permalink: 'team/Undergrad-Student-name'
