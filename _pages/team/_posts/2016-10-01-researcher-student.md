@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Dipti Kulkarni
-image: researcher.png
+image: researcher.jpeg
 role: PhD Student
 permalink: 'team/researcher-name'
 social:
