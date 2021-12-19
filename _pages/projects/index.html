@@ -1,0 +1,65 @@
+---
+title: " Research Projects"
+layout: default
+excerpt: "IoT Lab: Research Projects"
+sitemap: false
+permalink: /research_projects/
+---
+
+<h1>{{page.title}}</h1>
+
+<!-- Current Projects -->
+
+<h2><a id="project"></a> Current Projects </h2>
+{% assign projects = site.posts | where: 'category', 'project' | sort: 'batch' %}
+{% for project in projects %}
+<div class="card research_projects-project-card">
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <a href={{project.url}}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/research_projects/{{ project.image }}"
+                    class="card-img img-responsive img-thumbnail"
+                    style="filter: grayscale(0%); max-width: 100px;"/>
+            </a>
+        </div>
+
+        <div class="col-md-10">
+            <div class="card-body">
+            <h4 class="card-title">{{ project.title }}</h4>
+            <p class="card-text">{{ project.batch }}</p>
+            <p class="card-text">{{ project.desc }}</p>
+            <p class="card-text">{{ project.team_members }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+
+<!-- Past Projects -->
+
+<h2><a id="past-project"></a> Past Projects </h2>
+{% assign projects = site.posts | where: 'category', 'past-project' | sort: 'batch' %}
+{% for project in projects %}
+<div class="card research_projects-project-card">
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <a href={{project.url}}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/research_projects/{{ project.image }}"
+                    class="card-img img-responsive img-thumbnail"
+                    style="filter: grayscale(0%); max-width: 100px;"/>
+            </a>
+        </div>
+
+        <div class="col-md-10">
+            <div class="card-body">
+            <h4 class="card-title">{{ project.title }}</h4>
+            <p class="card-text">{{ project.batch }}</p>
+            <p class="card-text">{{ project.desc }}</p>
+            <p class="card-text">{{ project.team_members }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endfor %}
