@@ -8,16 +8,16 @@ permalink: /research_projects/
 
 <h1>{{page.title}}</h1>
 
-<!-- Staff -->
+<!-- Current Projects -->
 
-<h2><a id="staff"></a>Staff</h2>
-{% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
-{% for member in members %}
-<div class="card team-member-card">
+<h2><a id="project"></a> Current Projects </h2>
+{% assign projects = site.posts | where: 'category', 'project' | sort: 'batch' %}
+{% for project in projects %}
+<div class="card research_projects-project-card">
     <div class="row mt-3">
         <div class="col-md-2">
-            <a href={{member.url}}>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+            <a href={{project.url}}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/research_projects/{{ project.image }}"
                     class="card-img img-responsive img-thumbnail"
                     style="filter: grayscale(0%); max-width: 100px;"/>
             </a>
@@ -25,35 +25,10 @@ permalink: /research_projects/
 
         <div class="col-md-10">
             <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <p class="card-text">{{ member.role }}</p>
-            </div>
-        </div>
-    </div>
-</div>
-{% endfor %}
-
-<!-- Students -->
-
-<h2><a id="student"></a>Current Students</h2>
-{% assign members = site.posts | where: 'category', 'student' | sort: 'batch' %}
-{% for member in members %}
-<div class="card team-member-card">
-    <div class="row mt-3">
-        <div class="col-md-2">
-            <a href={{member.url}}>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img img-responsive img-thumbnail"
-                    style="filter: grayscale(0%); max-width: 100px;"/>
-            </a>
-        </div>
-
-        <div class="col-md-10">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-                <p class="card-text">{{ member.batch }}</p>
-                <p class="card-text">{{ member.role }}</p>
-                <p class="card-text">{{ member.projects }}</p>
+            <h4 class="card-title">{{ project.title }}</h4>
+            <p class="card-text">{{ project.batch }}</p>
+            <p class="card-text">{{ project.desc }}</p>
+            <p class="card-text">{{ project.team_members }}</p>
             </div>
         </div>
     </div>
@@ -61,16 +36,16 @@ permalink: /research_projects/
 
 {% endfor %}
 
-<!-- Past Students -->
+<!-- Past Projects -->
 
-<h2><a id="past-student"></a> Past Students </h2>
-{% assign members = site.posts | where: 'category', 'past-student' | sort: 'batch' %}
-{% for member in members %}
-<div class="card team-member-card">
+<h2><a id="past-project"></a> Past Projects </h2>
+{% assign projects = site.posts | where: 'category', 'past-project' | sort: 'batch' %}
+{% for project in projects %}
+<div class="card research_projects-project-card">
     <div class="row mt-3">
         <div class="col-md-2">
-            <a href={{member.url}}>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+            <a href={{project.url}}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/research_projects/{{ project.image }}"
                     class="card-img img-responsive img-thumbnail"
                     style="filter: grayscale(0%); max-width: 100px;"/>
             </a>
@@ -78,10 +53,10 @@ permalink: /research_projects/
 
         <div class="col-md-10">
             <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <p class="card-text">{{ member.batch }}</p>
-            <p class="card-text">{{ member.role }}</p>
-            <p class="card-text">{{ member.projects }}</p>
+            <h4 class="card-title">{{ project.title }}</h4>
+            <p class="card-text">{{ project.batch }}</p>
+            <p class="card-text">{{ project.desc }}</p>
+            <p class="card-text">{{ project.team_members }}</p>
             </div>
         </div>
     </div>
